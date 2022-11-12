@@ -6,6 +6,6 @@
   "issue_tracker": "https://github.com/csacca/uhoo-homeassistant/issues",
   "version": "0.0.4",
   "config_flow": true,
-  "codeowners": ["@csacca"],
-  "requirements": ["bundlewrap-pass @ git+https://github.com/csacca/pyuhoo.git#egg=pyuhoo"]
+  "codeowners": ["@csacca"],  
+  "requirements": ["pyuhoo @ git+github.com/csacca/pyuhoo.git#egg=pyuhoo"],
 }
